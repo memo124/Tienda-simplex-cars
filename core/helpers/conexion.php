@@ -9,25 +9,25 @@ class Conexion
     private static $id = null;
 
     //Método que estable la conexion con la base de datos
-    private function conectar()
+    private static function conectar()
     {
         $server = 'localhost';
-        $database = 'BaseTienda_#20180296_#20180695';
+        $database = 'tienda';
         $username = 'postgres';
         $password = 'postgres';
 
         try
         {
-            self::$connection = new PDO('pgsql:host='.$server.';dbname='.$database.';port=5432', $username,$password);
+            self::$connection = new PDO('pgsql:host='.$server.';dbname='.$database.';port=5433', $username,$password);
         } catch(PDOException $error) {
-            //var_dump($error);
+            // var_dump($error);
             self::setException($error->getcode(),$error->getMessage());
             exit(self::getException());
         }
     }
 
     /*Método que sirve cerrar la conexión con la base de datos*/
-    private function desconectar()
+    private static function desconectar()
     {
         self::$connection = null;
         $error = self::$statement->errorInfo();
@@ -42,9 +42,15 @@ class Conexion
         self::conectar();
         self::$statement = self::$connection->prepare($query);
         $state = self::$statement->execute($values);
-        self::$id = self::$connection->lastInsertId();
-        self::desconectar();
-        return $state;
+        try {
+            self::$id = self::$connection->lastInsertId();
+            self::desconectar();
+            return $state;
+        } catch (\Throwable $th) {
+            //throw $th;
+        } finally {
+            return $state;
+        }   
     }
 
     /*Metodo para obtener una fila de una consulta en la base de datos*/

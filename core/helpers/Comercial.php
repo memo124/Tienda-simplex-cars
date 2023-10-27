@@ -45,12 +45,9 @@ class Commerce{
                                     </ul>
                                     <ul id="Productos" class="dropdown-content">
                                         <li><a href="Productos1.php"><i class="material-icons left">shop</i>Productos</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="Productos2.php"><i class="material-icons left">shop_two</i>Por tipos</a></li>
                                     </ul>
                                     <ul id="Productos2" class="dropdown-content">
                                         <li><a href="Productos1.php"><i class="material-icons left">shop</i>Productos</a></li>
-                                        <li><a href="Productos2.php"><i class="material-icons left">shop_two</i>Por tipos</a></li>
                                     </ul>
                                     <ul id="Info" class="dropdown-content">
                                         <li><a href="Contactos.php"><i class="material-icons left">phone</i>Contactos</a></li>
@@ -156,12 +153,9 @@ class Commerce{
                                     </ul>
                                     <ul id="Productos" class="dropdown-content">
                                         <li><a href="Productos1.php"><i class="material-icons left">shop</i>Productos</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="Productos2.php"><i class="material-icons left">shop_two</i>Por tipos</a></li>
                                     </ul>
                                     <ul id="Productos2" class="dropdown-content">
                                         <li><a href="Productos1.php"><i class="material-icons left">shop</i>Productos</a></li>
-                                        <li><a href="Productos2.php"><i class="material-icons left">shop_two</i>Por tipos</a></li>
                                     </ul>
                                     <ul id="Info" class="dropdown-content">
                                         <li><a href="Contactos.php"><i class="material-icons left">phone</i>Contactos</a></li>
@@ -225,7 +219,7 @@ class Commerce{
                 ');
                 break;
             case '3':
-            self::modals();
+            
             print('
             <!doctype html>
             <html lang="es">
@@ -266,21 +260,14 @@ class Commerce{
                                         </ul>
                                         <ul id="Productos" class="dropdown-content">
                                             <li><a href="Productos1U.php"><i class="material-icons left">shop</i>Productos</a></li>
-                                            <li class="divider"></li>
-                                            <li><a href="Productos2U.php"><i class="material-icons left">shop_two</i>Por tipos</a></li>
                                         </ul>
                                         <ul id="Productos2" class="dropdown-content">
                                             <li><a href="Productos1U.php"><i class="material-icons left">shop</i>Productos</a></li>
-                                            <li><a href="Productos2U.php"><i class="material-icons left">shop_two</i>Por tipos</a></li>
                                         </ul>
                                         <ul id="Compras" class="dropdown-content">
                                             <li><a href="Carrito.php"><i class="material-icons left">shop</i>Carrito</a></li>
                                             <li class="divider"></li>
                                             <li><a class="A_MENU" href="Compras.php"><i class="material-icons left">shop_two</i>Mis compras</a></li>
-                                            <li class="divider"></li>
-                                            <li><a class="A_MENU" href="CrearReseña.php"><i class="material-icons left">grade</i>Crear reseña</a></li>
-                                            <li class="divider"></li>
-                                            <li><a href="VerReseñas.php"><i class="material-icons left">grade</i>Ver reseñas</a></li>
                                         </ul>
                                         <ul id="Compras2" class="dropdown-content">
                                             <li><a href="Carrito.php"><i class="material-icons left">shop</i>Carrito</a></li>
@@ -289,10 +276,6 @@ class Commerce{
                                         <ul id="Info2" class="dropdown-content">
                                             <li><a href="Contactos2.php"><i class="material-icons left">phone</i>Contactos</a></li>
                                             <li><a href="SobreNosotros2.php"><i class="material-icons left">info_outline</i>Sobre nosotros</a></li>
-                                        </ul>
-                                        <ul id="Reseñas2" class="dropdown-content">
-                                            <li><a href="CrearReseña.php"><i class="material-icons left">grade</i>Crear reseña</a></li>
-                                            <li><a href="VerReseñas.php"><i class="material-icons left">grade</i>Ver reseñas</a></li>
                                         </ul>
                                         <ul id="Cuenta" class="dropdown-content">
                                             <li><a href="#!"><i class="material-icons left">security</i>Editar perfil</a></li>

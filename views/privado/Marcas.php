@@ -15,8 +15,8 @@ PaginaPrivado::headerPrivado('Marcas','Marcas');
                              <!-- Botón para abrir ventana de nuevo registro -->
                                 <a onclick="openCreateModal()" class="btn-medium waves-effect waves-light red btn">
                                 Agregar marca<i class="material-icons left">add</i></a>
-                                <a onclick="" class="btn-medium waves-effect waves-light cyan btn" href="../../core/reports/privado/MarcasProductos.php" target="_blank">
-                                Generar reporte<i class="material-icons left">content_paste</i></a>
+                                <!-- <a onclick="" class="btn-medium waves-effect waves-light cyan btn" href="../../core/reports/privado/MarcasProductos.php" target="_blank">
+                                Generar reporte<i class="material-icons left">content_paste</i></a> -->
                             </div>
                         </div>
                     </div>

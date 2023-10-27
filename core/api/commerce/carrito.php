@@ -11,7 +11,7 @@ if ( isset($_GET['action']) ) {
     session_start();
     // Se instancia la clase Carrito;
     $carrito = new Carrito;
-    //Se declara un vector para almacenar lo que retornara la API
+    //Se declara un vecto   r para almacenar lo que retornara la API
     $result = array('status' => 0, 'session' => 0, 'message' => null, 'exception' => null);
     //Se evalua si existe una sesión para poder realizar la acción solicitada
     if ( isset($_SESSION['id_cliente']) ) {

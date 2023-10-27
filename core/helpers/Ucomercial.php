@@ -20,7 +20,7 @@ class UCommerce {
         </head>
         <body>
         ');
-        self::modals();
+
         print('
             <header>
             <nav>

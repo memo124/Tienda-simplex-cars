@@ -15,8 +15,8 @@ PaginaPrivado::headerPrivado('Facturas','Facturas');
                             <div class="col l8 offset-l2 m12 s12">
                              <!-- Botón para abrir ventana de nuevo registro -->
                                 <a onclick="openCreateModal()" class="btn-medium waves-effect waves-light red btn">Agregar factura<i class="material-icons left">add</i></a>
-                                <a onclick="" class="btn-medium waves-effect waves-light cyan btn">
-                                Generar reporte<i class="material-icons left">content_paste</i></a>
+                                <!-- <a onclick="" class="btn-medium waves-effect waves-light cyan btn">
+                                Generar reporte<i class="material-icons left">content_paste</i></a> -->
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@
         
         public static function headerPrivado($Titulo_Pagina, $NombreArchivo)
         {   
-        self::modals();
+        // self::modals();
         print('
             <!doctype html>
                 <html lang="es">
@@ -92,7 +92,6 @@
                                                 <li><a class="dropdown-trigger" href="#!" data-target="facturacion"><i class="material-icons left">monetization_on</i>Facturación<i class="material-icons right">arrow_drop_down</i></a></li>
                                                 <li><a href="Marcas.php"><i class="material-icons left">shop_two</i>Marcas</a></li>
                                                 <li><a class="dropdown-trigger" href="#!" data-target="productos"><i class="material-icons left">shop</i>Productos<i class="material-icons right">arrow_drop_down</i></a></li>
-                                                <li><a href="Resenas.php" ><i class="material-icons left">grade</i>Reseñas</a></li>
                                                 <li><a class="dropdown-trigger" href="#!" data-target="usuarios"><i class="material-icons left">people</i>Usuarios<i class="material-icons right">arrow_drop_down</i></a></li>    
                                                 <li><a href="#" class="dropdown-trigger" data-target="opciones_cuenta"><i class="material-icons left">account_circle</i>Cuenta: <b>'.$_SESSION['usuario'].'</b></a></li>
                                                         <!-- Dropdown Trigger -->
@@ -104,7 +103,6 @@
                                                 <li><a class="dropdown-trigger" href="#!" data-target="facturacion2"><i class="material-icons left">monetization_on</i>Facturación<i class="material-icons right">arrow_drop_down</i></a></li>
                                                 <li><a href="Marcas.php"><i class="material-icons left">shop_two</i>Marcas</a></li>
                                                 <li><a class="dropdown-trigger" href="#!" data-target="productos2"><i class="material-icons left">shop</i>Productos<i class="material-icons right">arrow_drop_down</i></a></li>
-                                                <li><a href="Resenas.php"><i class="material-icons left">grade</i>Reseñas</a></li>                                          
                                                 <li><a class="dropdown-trigger" href="#!" data-target="usuarios2"><i class="material-icons left">people</i>Usuarios<i class="material-icons right">arrow_drop_down</i></a></li>
                                                 <li><a href="#" class="dropdown-trigger" data-target="opciones_cuenta2"><i class="material-icons left">account_circle</i>Cuenta: <b>'.$_SESSION['usuario'].'</b></a></li>
                                             </ul>
@@ -135,7 +133,7 @@
 
         public static function headerPrivado2($Titulo_Pagina)
         {   
-        self::modals();
+        // self::modals();
         print('
             <!doctype html>
                 <html lang="es">
@@ -222,7 +220,6 @@
                                                 <li><a class="dropdown-trigger" href="#!" data-target="facturacion"><i class="material-icons left">monetization_on</i>Facturación<i class="material-icons right">arrow_drop_down</i></a></li>
                                                 <li><a href="Marcas.php"><i class="material-icons left">shop_two</i>Marcas</a></li>
                                                 <li><a class="dropdown-trigger" href="#!" data-target="productos"><i class="material-icons left">shop</i>Productos<i class="material-icons right">arrow_drop_down</i></a></li>
-                                                <li><a href="Resenas.php" ><i class="material-icons left">grade</i>Reseñas</a></li>
                                                 <li><a class="dropdown-trigger" href="#!" data-target="usuarios"><i class="material-icons left">people</i>Usuarios<i class="material-icons right">arrow_drop_down</i></a></li>    
                                                 <li><a href="#" class="dropdown-trigger" data-target="opciones_cuenta"><i class="material-icons left">account_circle</i>Cuenta: <b>'.$_SESSION['usuario'].'</b></a></li>
                                                         <!-- Dropdown Trigger -->
@@ -234,7 +231,6 @@
                                                 <li><a class="dropdown-trigger" href="#!" data-target="facturacion2"><i class="material-icons left">monetization_on</i>Facturación<i class="material-icons right">arrow_drop_down</i></a></li>
                                                 <li><a href="Marcas.php"><i class="material-icons left">shop_two</i>Marcas</a></li>
                                                 <li><a class="dropdown-trigger" href="#!" data-target="productos2"><i class="material-icons left">shop</i>Productos<i class="material-icons right">arrow_drop_down</i></a></li>
-                                                <li><a href="Resenas.php"><i class="material-icons left">grade</i>Reseñas</a></li>                                          
                                                 <li><a class="dropdown-trigger" href="#!" data-target="usuarios2"><i class="material-icons left">people</i>Usuarios<i class="material-icons right">arrow_drop_down</i></a></li>
                                                 <li><a href="#" class="dropdown-trigger" data-target="opciones_cuenta2"><i class="material-icons left">account_circle</i>Cuenta: <b>'.$_SESSION['usuario'].'</b></a></li>
                                             </ul>

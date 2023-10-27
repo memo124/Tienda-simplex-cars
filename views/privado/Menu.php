@@ -1,6 +1,6 @@
 <?php
 require_once('../../core/helpers/Privado.php');
-PaginaPrivado::headerPrivado2('Bienvenido','Privado');
+PaginaPrivado::headerPrivado2('Bienvenido');
 ?>
     <!--Caja que contiene un mensaje de bienvenida al usuario-->
     <div>

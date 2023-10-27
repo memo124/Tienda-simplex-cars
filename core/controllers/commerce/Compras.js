@@ -53,7 +53,7 @@ function verCompras() {
                             <div class="col l6 m12 s12">
                                 <p class="info_marca1 coso${row.id_factura_cliente}">Cantidad a pagar (USD$): $${row.total}</p>
                                 <p class="info_marca1"><i>Forma de pago</i>: ${row.tipo_pago}</p>
-                                <a href="../../core/reports/commerce/comprobante.php?id_factura=${row.id_factura_cliente}"  target="_blank" class="btn-medium waves-effect waves-light red btn">Generar comprobante</a>
+                               
                                 <p></p>
                             </div>
                         </div>

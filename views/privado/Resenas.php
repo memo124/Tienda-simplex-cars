@@ -12,7 +12,7 @@ PaginaPrivado::headerPrivado('Reseñas','Resenas');
                         <div class="row">
                             <div class="col l8 offset-l2 m12 s12">
                                 <a onclick="" class="btn-medium waves-effect waves-light cyan btn" href="../../core/reports/privado/Resena.php" target="_blank">
-                                Generar reporte<i class="material-icons left">content_paste</i></a>
+                                <!-- Generar reporte<i class="material-icons left">content_paste</i></a> -->
                             </div>
                         </div>
                     </div>
